@@ -1,0 +1,38 @@
+body {
+  margin: 25%;
+}
+.count {
+  margin: 0 1em;
+}
+
+$small: 28px;
+$normal: 36px;
+$big: 42px;
+
+.counter {
+  font-family: HelveticaNeueW01-45Ligh, Helvetica, Arial, sans-serif;
+  font-size: $normal;
+  line-height: $normal;
+
+  &.small {
+    font-size: $small;
+    line-height: $small;
+  }  
+  &.big {
+    font-size: $big;
+    line-height: $big;
+  }  
+
+  button {
+    font-size: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+}
+.vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+  margin: 0 auto;
+}
